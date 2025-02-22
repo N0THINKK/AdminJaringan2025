@@ -13,7 +13,7 @@
 #### **a. IP Server dan Client**
 
 ![Tugas1/Admin_Jaringan/Untitled.png](https://github.com/N0THINKK/AdminJaringan2025/blob/main/Tugas1/Admin_Jaringan/Untitled.png)
-![Untitled2](https://github.com/user-attachments/assets/46fc04f5-e460-4874-8341-be64eadc8abf)
+![Tugas1/Admin_Jaringan/Untitled2.png](https://github.com/N0THINKK/AdminJaringan2025/blob/main/Tugas1/Admin_Jaringan/Untitled2.png)
 
 - **IP Server:** `65.208.228.223`
 - **IP Client:** `145.254.160.237`
@@ -21,18 +21,18 @@
 
 #### **b. Versi HTTP**
 
-![Untitled](https://github.com/user-attachments/assets/3237d54a-80a5-4e7f-a26e-d4dabe896a65)
+![Tugas1/Admin_Jaringan/Untitled.png](https://github.com/N0THINKK/AdminJaringan2025/blob/main/Tugas1/Admin_Jaringan/Untitled.png)
 Untuk mengetahui versi HTTP yang digunakan, kita dapat memfilter dengan `http` di Wireshark. Pada informasi yang muncul, terlihat bahwa versi yang digunakan adalah **HTTP/1.1**.
 
 #### **c. Waktu Client Mengirim Request**
 
-![Untitled](https://github.com/user-attachments/assets/3237d54a-80a5-4e7f-a26e-d4dabe896a65)
+![Tugas1/Admin_Jaringan/Untitled.png](https://github.com/N0THINKK/AdminJaringan2025/blob/main/Tugas1/Admin_Jaringan/Untitled.png)
 Untuk melihat waktu saat client mengirim request, cari paket dengan metode **GET**, **POST**, atau **PUT**. Dalam contoh ini, digunakan paket nomor `4`, yang menunjukkan bahwa waktu pengiriman request adalah **0.911310 detik**.
 
 #### **d. Waktu Server Menerima HTTP Request**
 
-![Untitled3](https://github.com/user-attachments/assets/292d0199-9700-4285-a97d-3c729dc518b0)
-![Untitled4](https://github.com/user-attachments/assets/13f3c2c9-a0b9-4c76-ac6a-9486a6f42d85)
+![Tugas1/Admin_Jaringan/Untitled3.png](https://github.com/N0THINKK/AdminJaringan2025/blob/main/Tugas1/Admin_Jaringan/Untitled3.png)
+![Tugas1/Admin_Jaringan/Untitled4.png](https://github.com/N0THINKK/AdminJaringan2025/blob/main/Tugas1/Admin_Jaringan/Untitled4.png)
 
 Waktu server menerima HTTP request dapat ditemukan dengan melihat **Response in Frame**. Dalam kasus ini, request yang dikirim oleh client pada paket nomor `4` diproses dan selesai pada paket nomor `38`, dengan waktu **4.846969 detik**.
 
@@ -52,7 +52,7 @@ Jadi, total waktu yang dibutuhkan untuk transfer dan response adalah **3.935659 
 
 ## **2. Deskripsi Gambar pada Slide**
 
-![Untitled5](https://github.com/user-attachments/assets/0ed5875f-a94a-47ac-b566-2fb077f57a4e)
+![Tugas1/Admin_Jaringan/Untitled5.png](https://github.com/N0THINKK/AdminJaringan2025/blob/main/Tugas1/Admin_Jaringan/Untitled5.png)
 
 Pada gambar, terlihat **node-to-node communication** yang terjadi pada lapisan **Data Link (Layer 2)** dalam **OSI Model**. Proses ini menggunakan **MAC (Media Access Control)** untuk identifikasi, dengan protokol seperti **Ethernet, WiFi, atau Frame Relay**.
 
