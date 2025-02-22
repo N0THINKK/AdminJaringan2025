@@ -12,7 +12,7 @@
 
 #### **a. IP Server dan Client**
 
-![Untitled](https://github.com/user-attachments/assets/3237d54a-80a5-4e7f-a26e-d4dabe896a65)
+![Untitled](Tugas1/Admin_Jaringan/Untitled.png)
 ![Untitled2](https://github.com/user-attachments/assets/46fc04f5-e460-4874-8341-be64eadc8abf)
 
 - **IP Server:** `65.208.228.223`
